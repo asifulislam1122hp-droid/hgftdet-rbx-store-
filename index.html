@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#090b14">
+  <title>ASIFUL RBX STORE | Robux Orders</title>
+  <meta name="description" content="ASIFUL RBX STORE — place a Robux order through Roblox gamepass delivery.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="ambient ambient-one"></div><div class="ambient ambient-two"></div>
+  <header class="topbar wrap">
+    <a class="brand" href="#" aria-label="ASIFUL RBX STORE home">
+      <span class="brand-mark">A</span>
+      <span><strong>ASIFUL</strong><small>RBX STORE</small></span>
+    </a>
+    <a class="top-link" href="#order">Place an order <span aria-hidden="true">↗</span></a>
+  </header>
+
+  <main class="wrap">
+    <section class="hero">
+      <div class="hero-copy">
+        <span class="eyebrow"><span class="live-dot"></span> ROBUX • GAMEPASS DELIVERY</span>
+        <h1>Your next<br><span>Robux upgrade.</span></h1>
+        <p>Choose a package, enter your Roblox username and gamepass link, then contact us to confirm your order.</p>
+        <a class="primary-btn" href="#order">Start an order <span>→</span></a>
+        <p class="micro-note">No Roblox password or login code needed. Never share them with anyone.</p>
+      </div>
+      <div class="hero-art" aria-label="Decorative Robux-inspired coin graphic">
+        <div class="orbit orbit-a"></div><div class="orbit orbit-b"></div>
+        <div class="coin"><span>R$</span></div>
+        <div class="floating-tag tag-top">FAST ORDER</div>
+        <div class="floating-tag tag-bottom"><span class="live-dot"></span> HUMAN-CONFIRMED</div>
+      </div>
+    </section>
+
+    <section class="section" id="packages">
+      <div class="section-heading">
+        <div><span class="eyebrow">PICK YOUR PACKAGE</span><h2>Robux packages</h2></div>
+        <p>Prices are editable placeholders.<br>Update them before publishing.</p>
+      </div>
+      <div class="package-grid" id="packageGrid">
+        <button class="package-card" data-rbx="100" data-price="৳90"><span class="package-label">STARTER</span><strong>100 <small>R$</small></strong><span class="package-price">৳90</span><span class="package-choose">Choose package →</span></button>
+        <button class="package-card featured" data-rbx="250" data-price="৳220"><span class="popular">POPULAR</span><span class="package-label">VALUE PACK</span><strong>250 <small>R$</small></strong><span class="package-price">৳220</span><span class="package-choose">Choose package →</span></button>
+        <button class="package-card" data-rbx="500" data-price="৳430"><span class="package-label">BOOST PACK</span><strong>500 <small>R$</small></strong><span class="package-price">৳430</span><span class="package-choose">Choose package →</span></button>
+        <button class="package-card" data-rbx="1000" data-price="৳850"><span class="package-label">MEGA PACK</span><strong>1,000 <small>R$</small></strong><span class="package-price">৳850</span><span class="package-choose">Choose package →</span></button>
+      </div>
+      <p class="disclaimer">Sample prices only — verify your actual pricing, Roblox fees/tax, availability and delivery timing before accepting payment.</p>
+    </section>
+
+    <section class="section order-section" id="order">
+      <div class="section-heading">
+        <div><span class="eyebrow">ORDER DETAILS</span><h2>Build your order</h2></div>
+        <p>Fill in the details below.<br>This form opens a message for you to send.</p>
+      </div>
+      <div class="order-layout">
+        <form id="orderForm" class="order-form">
+          <label>Robux package
+            <select id="package" required>
+              <option value="100 R$ — ৳90">100 R$ — ৳90</option>
+              <option value="250 R$ — ৳220" selected>250 R$ — ৳220</option>
+              <option value="500 R$ — ৳430">500 R$ — ৳430</option>
+              <option value="1,000 R$ — ৳850">1,000 R$ — ৳850</option>
+            </select>
+          </label>
+          <label>Roblox username
+            <input id="username" required maxlength="30" autocomplete="off" placeholder="Your exact Roblox username">
+          </label>
+          <label>Gamepass URL
+            <input id="gamepass" type="url" required placeholder="https://www.roblox.com/game-pass/...">
+            <small>Use a valid gamepass link. Do not send your password or verification codes.</small>
+          </label>
+          <label>Payment method
+            <select id="payment" required>
+              <option value="bKash">bKash</option>
+              <option value="Nagad">Nagad</option>
+            </select>
+          </label>
+          <label>Payment reference (optional)
+            <input id="reference" maxlength="80" placeholder="Transaction reference only (never PIN/OTP)">
+          </label>
+          <button class="primary-btn submit-btn" type="submit">Prepare order message <span>→</span></button>
+          <p id="formStatus" class="form-status" role="status"></p>
+        </form>
+        <aside class="payment-card">
+          <span class="eyebrow">PAYMENT DETAILS</span>
+          <h3>Pay after confirming</h3>
+          <p>Contact the store first to confirm stock, price, fees and delivery details. Replace the placeholders below with your own business payment details.</p>
+          <div class="payment-row"><span>bKash</span><strong id="bkashText">YOUR-BKASH-NUMBER</strong><button type="button" class="copy-btn" data-copy="bkash">Copy</button></div>
+          <div class="payment-row"><span>Nagad</span><strong id="nagadText">YOUR-NAGAD-NUMBER</strong><button type="button" class="copy-btn" data-copy="nagad">Copy</button></div>
+          <div class="safe-box"><span>🔒</span><p><strong>Keep your account safe</strong><br>We will never ask for your Roblox password, email password, PIN, OTP or login QR code.</p></div>
+          <p class="small-print">Only use payment accounts you control. Never publish someone else's number without permission.</p>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section steps">
+      <span class="eyebrow">HOW IT WORKS</span><h2>Simple. Clear. Confirmed.</h2>
+      <div class="step-grid">
+        <article><span>01</span><h3>Choose</h3><p>Select the package you want.</p></article>
+        <article><span>02</span><h3>Send details</h3><p>Share your username and gamepass link.</p></article>
+        <article><span>03</span><h3>Confirm</h3><p>Confirm the total and payment with the seller.</p></article>
+        <article><span>04</span><h3>Delivery</h3><p>Delivery is completed manually according to Roblox's current rules and processing times.</p></article>
+      </div>
+    </section>
+
+    <section class="contact-banner">
+      <div><span class="eyebrow">NEED HELP?</span><h2>Talk to the store.</h2><p>Ask questions and confirm your order before paying.</p></div>
+      <div class="contact-actions">
+        <a id="discordLink" class="secondary-btn" href="#" target="_blank" rel="noopener">Discord</a>
+        <a id="whatsappLink" class="primary-btn" href="#" target="_blank" rel="noopener">WhatsApp <span>↗</span></a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="wrap footer">
+    <a class="brand" href="#"><span class="brand-mark">A</span><span><strong>ASIFUL</strong><small>RBX STORE</small></span></a>
+    <p>Independent seller template. Not affiliated with or endorsed by Roblox Corporation.</p>
+    <span>© <span id="year"></span> ASIFUL RBX STORE</span>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
