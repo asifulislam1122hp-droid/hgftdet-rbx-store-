@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-label="Digital Shop og image">
+  <defs>
+    <radialGradient id="bgGlow" cx="38%" cy="46%" r="52%">
+      <stop offset="0%" stop-color="#ffe44d" stop-opacity="0.92"/>
+      <stop offset="18%" stop-color="#f8d800" stop-opacity="0.82"/>
+      <stop offset="42%" stop-color="#d9b100" stop-opacity="0.28"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="gold" x1="0" x2="1">
+      <stop offset="0%" stop-color="#fff9b8"/>
+      <stop offset="30%" stop-color="#ffea64"/>
+      <stop offset="60%" stop-color="#ffd31a"/>
+      <stop offset="100%" stop-color="#f5bf00"/>
+    </linearGradient>
+    <filter id="softGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8"/>
+    </filter>
+    <filter id="glowHeavy" x="-25%" y="-25%" width="150%" height="150%">
+      <feGaussianBlur stdDeviation="18"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="630" fill="#020200"/>
+  <rect width="1200" height="630" fill="url(#bgGlow)"/>
+
+  <g opacity="0.92">
+    <path d="M470 80 C540 30, 660 35, 695 93 C720 136, 703 192, 665 244 C642 277, 628 312, 628 345 C628 380, 647 410, 682 436 C717 462, 729 495, 704 531 C676 571, 315 582, 260 552 C211 525, 210 483, 245 455 C273 432, 292 397, 295 359 C299 318, 288 278, 261 242 C225 195, 214 145, 248 105 C291 57, 397 42, 470 80 Z"
+          fill="url(#gold)" opacity="0.32" filter="url(#glowHeavy)"/>
+
+    <path d="M465 90 C530 52, 615 48, 665 94 C700 128, 711 175, 691 231 C672 284, 661 318, 658 360 C655 395, 667 430, 698 457 C732 486, 731 523, 700 547 C655 580, 403 575, 341 545 C295 521, 273 488, 288 450 C304 409, 328 387, 340 346 C351 308, 345 274, 314 243 C277 206, 256 150, 288 112 C330 67, 404 66, 465 90 Z"
+          fill="url(#gold)" opacity="0.66" filter="url(#softGlow)"/>
+
+    <path d="M478 118 C535 83, 613 79, 668 116 C718 150, 715 218, 668 271 C641 304, 625 334, 622 375 C618 432, 642 474, 687 505 C718 528, 704 551, 670 552 C617 553, 455 550, 390 534 C351 524, 325 493, 339 460 C354 424, 388 416, 392 383 C396 349, 378 318, 352 290 C312 251, 285 216, 301 172 C322 118, 408 92, 478 118 Z"
+          fill="rgba(255,227,70,0.82)"/>
+
+    <path d="M408 210 C456 186, 523 197, 541 228 C544 244, 538 254, 527 261 C511 271, 501 286, 495 306 C488 327, 483 356, 466 368 C447 382, 401 369, 383 346 C366 323, 355 288, 351 258 C350 236, 371 223, 408 210 Z"
+          fill="#000" opacity="0.66"/>
+
+    <path d="M447 248 C461 239, 474 236, 491 236 C515 236, 537 245, 548 261 C557 275, 558 292, 555 309 C551 332, 527 348, 492 350 C457 351, 430 338, 422 314 C411 280, 419 264, 447 248 Z"
+          fill="#000" opacity="0.58"/>
+
+    <path d="M470 217 C484 230, 491 241, 498 259 C505 277, 511 298, 512 318 C514 335, 512 351, 503 364 C482 393, 446 395, 425 377 C400 355, 400 319, 410 289 C419 267, 436 240, 470 217 Z"
+          fill="rgba(0,0,0,0.7)"/>
+
+    <path d="M337 313 C324 275, 303 245, 266 245 C251 245, 240 257, 234 272 C229 287, 230 302, 240 316 C255 336, 283 347, 302 355 C317 360, 331 364, 339 354 C345 346, 344 332, 337 313 Z"
+          fill="rgba(0,0,0,0.7)"/>
+
+    <path d="M550 274 C560 267, 573 266, 586 273 C597 279, 605 289, 610 303 C613 315, 615 327, 612 340 C607 356, 597 369, 582 377 C567 385, 550 388, 535 382 C529 380, 526 369, 531 365 C539 358, 549 351, 549 338 C549 329, 547 321, 547 312 C547 298, 544 286, 550 274 Z"
+          fill="rgba(0,0,0,0.72)"/>
+
+    <path d="M352 436 C401 423, 463 432, 512 453 C561 474, 613 466, 662 438 C683 425, 693 431, 703 452 C645 515, 482 540, 376 522 C338 515, 304 491, 313 465 C317 455, 330 448, 352 436 Z"
+          fill="rgba(255,222,60,0.74)" filter="url(#softGlow)"/>
+
+    <path d="M680 224 C704 203, 724 181, 744 175 C766 169, 780 180, 782 201 C784 223, 771 242, 754 255 C744 262, 728 265, 711 261 C695 257, 687 245, 680 224 Z"
+          fill="rgba(255,222,60,0.82)"/>
+
+    <path d="M657 310 C676 303, 691 307, 706 326 C724 348, 731 370, 727 395 C724 417, 714 438, 692 452 C677 461, 662 466, 650 459 C640 452, 641 431, 646 414 C653 390, 654 365, 648 344 C644 329, 646 319, 657 310 Z"
+          fill="rgba(255,227,70,0.8)"/>
+
+    <g opacity="0.9">
+      <circle cx="567" cy="153" r="2.2" fill="#fff8bf"/>
+      <circle cx="589" cy="164" r="2.1" fill="#fff8bf"/>
+      <circle cx="611" cy="181" r="2.4" fill="#fff8bf"/>
+      <circle cx="630" cy="205" r="2.2" fill="#fff8bf"/>
+      <circle cx="655" cy="247" r="2.3" fill="#fff8bf"/>
+      <circle cx="577" cy="248" r="2.5" fill="#fff8bf"/>
+      <circle cx="495" cy="234" r="2.2" fill="#fff8bf"/>
+      <circle cx="323" cy="255" r="2.1" fill="#fff8bf"/>
+      <circle cx="335" cy="314" r="2.3" fill="#fff8bf"/>
+      <circle cx="351" cy="378" r="2.1" fill="#fff8bf"/>
+      <circle cx="459" cy="470" r="2.4" fill="#fff8bf"/>
+      <circle cx="574" cy="488" r="2.5" fill="#fff8bf"/>
+      <circle cx="684" cy="440" r="2.1" fill="#fff8bf"/>
+      <circle cx="705" cy="356" r="2.3" fill="#fff8bf"/>
+      <circle cx="692" cy="285" r="2.2" fill="#fff8bf"/>
+    </g>
+  </g>
+
+  <g transform="translate(760 220)">
+    <text x="0" y="153" font-family="Georgia, 'Times New Roman', serif" font-size="96" font-weight="700" fill="#f4f4f0" letter-spacing="-2">Digital Shop</text>
+    <text x="60" y="225" font-family="Georgia, 'Times New Roman', serif" font-size="28" font-weight="700" fill="#f0d25f" letter-spacing="5">• BUY • SELL • TRADE •</text>
+  </g>
+</svg>
